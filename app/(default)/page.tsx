@@ -4,10 +4,12 @@ export const metadata = {
 };
 
 import Hero from "@/components/hero";
-import Features from "@/components/features";
-import Newsletter from "@/components/newsletter";
 import Zigzag from "@/components/zigzag";
 import Testimonials from "@/components/testimonials";
+import ForDriver from "@/components/fordriver";
+import Interfce from "@/components/interface";
+import DeliveryService from "@/components/deliveryservice";
+import AppView from "@/components/appview";
 
 export default function Home() {
   return (
@@ -16,7 +18,10 @@ export default function Home() {
       {/* <Features /> */}
       <Zigzag />
       <Testimonials />
-      <Newsletter />
+      <ForDriver />
+      <Interfce />
+      <DeliveryService />
+      <AppView />
     </>
   );
 }
