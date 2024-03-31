@@ -6,9 +6,9 @@ export const metadata = {
 import Hero from "@/components/hero";
 import Zigzag from "@/components/zigzag";
 import Testimonials from "@/components/testimonials";
-import ForDriver from "@/components/fordriver";
+import ForDriver from "@/components/for-driver";
 import Interfce from "@/components/interface";
-import DeliveryService from "@/components/deliveryservice";
+import DeliveryService from "@/components/delivery-service";
 import AppView from "@/components/appview";
 
 export default function Home() {

@@ -14,7 +14,7 @@ export default function DeliveryService() {
               data-aos="fade-up"
             >
               <Image
-                className="max-w-full mx-auto md:max-w-none h-auto"
+                className="max-w-full mx-auto md:max-w-none h-auto float-right"
                 src={BudsVanImage}
                 width={408}
                 height={253}

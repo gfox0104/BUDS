@@ -10,13 +10,15 @@ export default function AppView() {
     <section className="py-[10px] px-[20px]">
       <div className="max-w-[1170px] mx-auto p-[10px]">
         <div className="pb-[40px]">
-          <div className="mx-auto text-center pb-[80px]">
-            <h2 className="h2 mb-4 text-[34px] text-[#2D67D5]">
-              Buds App is available for all devices
-            </h2>
-            <p className="text-[16px] text-[#7A7A7A] mb-6 font-[400]">
-              Download our app and get anything delivered now!.
-            </p>
+          <div className="mx-auto text-center">
+            <div className="flex flex-col pb-[40px]">
+              <h2 className="h2 mb-[10px] text-[34px] text-[#2D67D5] font-[700]">
+                Buds App is available for all devices
+              </h2>
+              <p className="text-[16px] text-[#7A7A7A] font-[400]">
+                Download our app and get anything delivered now!.
+              </p>
+            </div>
             <div className="flex justify-center gap-4">
               <Link
                 href="/"

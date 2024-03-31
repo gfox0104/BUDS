@@ -8,7 +8,7 @@ import MainImage from "@/public/images/main-img.png";
 export default function Hero() {
   return (
     <section>
-      <div className=" bg-[#2d67d5]">
+      <div className="bg-[#2d67d5]">
         <div className="max-w-[1170px] mx-auto">
           {/* Hero content */}
 

@@ -5,7 +5,7 @@ import DrivingMobImage from "@/public/images/driving-mob.png";
 export default function ForDriver() {
   return (
     <section>
-      <div className="max-w-[1170px] mx-auto py-12 md:py-20 ">
+      <div className="max-w-[1170px] mx-auto my-[60px]">
         <div className="grid gap-20">
           {/* 1st item */}
           <div className="md:grid md:grid-cols-12 items-center">
@@ -17,8 +17,6 @@ export default function ForDriver() {
               <Image
                 className="max-w-full mx-auto md:max-w-none h-auto"
                 src={DrivingMobImage}
-                width={426}
-                height={589}
                 alt="Features 01"
               />
             </div>
