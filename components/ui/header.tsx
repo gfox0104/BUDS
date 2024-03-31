@@ -21,12 +21,11 @@ export default function Header() {
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
-            {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
                   href="/"
-                  className="font-medium text-[15px] text-[#FFFFFF] hover:text-gray-200 flex items-center transition duration-150 ease-in-out"
+                  className="text-[15px] text-[#FFFFFF] hover:text-gray-200 flex items-center transition duration-150 ease-in-out font-[600]"
                 >
                   Home
                 </Link>
@@ -34,7 +33,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/"
-                  className="font-medium text-[15px] text-[#FFFFFF] hover:text-gray-200 flex items-center transition duration-150 ease-in-out ml-[50px]"
+                  className="font-[600] text-[15px] text-[#FFFFFF] hover:text-gray-200 flex items-center transition duration-150 ease-in-out ml-[50px]"
                 >
                   Features
                 </Link>
@@ -42,7 +41,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/"
-                  className="font-medium text-[15px] text-[#FFFFFF] hover:text-gray-200 flex items-center transition duration-150 ease-in-out ml-[50px]"
+                  className="font-[600] text-[15px] text-[#FFFFFF] hover:text-gray-200 flex items-center transition duration-150 ease-in-out ml-[50px]"
                 >
                   For Riders
                 </Link>
@@ -50,7 +49,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/"
-                  className="font-medium text-[15px] text-[#FFFFFF] hover:text-gray-200 flex items-center transition duration-150 ease-in-out ml-[50px]"
+                  className="font-[600] text-[15px] text-[#FFFFFF] hover:text-gray-200 flex items-center transition duration-150 ease-in-out ml-[50px]"
                 >
                   How it works
                 </Link>
@@ -58,7 +57,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/"
-                  className="font-medium text-[15px] text-[#FFFFFF] hover:text-gray-200 flex items-center transition duration-150 ease-in-out ml-[50px]"
+                  className="font-[600] text-[15px] text-[#FFFFFF] hover:text-gray-200 flex items-center transition duration-150 ease-in-out ml-[50px]"
                 >
                   For Drivers
                 </Link>
@@ -66,7 +65,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/"
-                  className="font-medium text-[15px] bg-[#FFFFFF] rounded-[25px] px-[40px] py-[9px] text-[#2D67D5] flex items-center transition duration-150 ease-in-out ml-[50px]"
+                  className="font-[600] text-[15px] bg-[#FFFFFF] rounded-[25px] px-[40px] py-[9px] text-[#2D67D5] flex items-center transition duration-150 ease-in-out ml-[50px]"
                 >
                   Download
                 </Link>
